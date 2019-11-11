@@ -1,2 +1,2 @@
 # programPrac2.io
-This is the formative task of programming classes.
+We treated these essays with our hearts and hope you enjoy them!
