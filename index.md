@@ -28,8 +28,8 @@
 </head>
 
 <body>
-    <div data-bs-parallax-bg="true" style="height: 533px;background-image: url(&quot;assets/img/MBP.jpeg&quot;);background-position: center;background-size: cover;filter: brightness(74%) hue-rotate(0deg) invert(0%) saturate(106%) sepia(0%);">
-        <nav class="navbar navbar-light navbar-expand-md" style="background-color: #ffffff;filter: invert(100%);opacity: 0.97;">
+    <div data-bs-parallax-bg="true" style="height: 533px;filter: brightness(100%) hue-rotate(0deg) invert(0%) saturate(106%) sepia(0%);background-image: url(&quot;assets/img/MBP.jpeg&quot;);background-position: center;background-size: cover;">
+        <nav class="navbar navbar-light navbar-expand-md" style="background-color: #ffffff;filter: invert(100%);opacity: 0.97;margin-bottom: 30px;">
             <div class="container-fluid"><a class="navbar-brand" href="index.html" style="font-weight: bold;">Glance</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-2"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div
                     class="collapse navbar-collapse" id="navcol-2">
@@ -41,14 +41,14 @@
             </div>
     </div>
     </nav>
-    <h1 style="padding-top: 214px;padding-right: 0px;margin-top: -1px;padding-left: 91px;color: rgb(255,255,255);">VIEWS ON</h1>
-    <h1 style="padding-top: 0px;padding-right: 0px;margin-top: -16px;padding-left: 91px;color: rgb(255,255,255);">COMPUTATIONAL TECHS.</h1>
+    <h1 style="padding-top: 214px;padding-right: 0px;margin-top: -1px;padding-left: 91px;color: rgb(255,255,255);font-weight: bold;">VIEWS ON</h1>
+    <h1 style="padding-top: 0px;padding-right: 0px;margin-top: -16px;padding-left: 91px;color: rgb(255,255,255);font-weight: bold;">COMPUTATIONAL TECHS.</h1>
     </div>
     <div class="highlight-blue" style="background-color: rgb(255,255,255);height: 134px;margin-top: -34px;">
         <div class="container">
             <div class="intro" style="color: #000000;">
-                <h2 class="text-center" style="font-weight: bold;">Our Top Picks for You</h2>
-                <p class="text-center" style="color: rgb(0,0,0);">Read our latest articles, covering machine learning, pattern recognition and more...</p>
+                <h2 class="text-center" data-bs-parallax-bg="true" style="font-weight: bold;">Our Top Picks for You</h2>
+                <p class="text-center" style="color: rgb(0,0,0);">Read our latest articles, covering education, and more...</p>
             </div>
             <div class="buttons"></div>
         </div>
@@ -56,15 +56,16 @@
     <div class="article-list">
         <div class="container">
             <div class="row articles">
-                <div class="col-sm-6 col-md-4 item"><a href="ZZHOU.html"><img class="img-fluid" data-bs-hover-animate="pulse" src="assets/img/MBP.jpeg" style="background-image: url(&quot;assets/img/MBP.jpeg&quot;);"></a>
-                    <h3 class="name">ML/PR in Education</h3>
-                    <p class="description">The article mainly describes the possible applications of machine learning and pattern recognition in educational establishments while giving counter examples.</p><a class="action" href="ZZHOU.html"><i class="fa fa-arrow-circle-right"></i></a></div>
+                <div class="col-sm-6 col-md-4 item"><a href="ZZHOU.html"><img class="img-fluid" data-bs-hover-animate="pulse" src="assets/img/Classroom.jpg" style="background-image: url(&quot;assets/img/Classroom.jpg&quot;);box-shadow: 0px 20px 40px 1px rgba(0,30,100,0.6);border-radius: 17px;"></a>
+                    <h3
+                        class="name">ML/PR in Education</h3>
+                        <p class="description">The article mainly describes the possible applications of machine learning and pattern recognition in educational establishments while giving counter examples.</p><a class="action" href="ZZHOU.html"><i class="fa fa-arrow-circle-right"></i></a></div>
                 <div
-                    class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/building.jpg"></a>
+                    class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" data-bs-hover-animate="pulse" src="assets/img/building.jpg" style="box-shadow: 0px 20px 40px 1px rgba(0,0,0,0.6);border-radius: 17px;"></a>
                     <h3 class="name">Article Title</h3>
                     <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
             <div
-                class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="assets/img/loft.jpg"></a>
+                class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" data-bs-hover-animate="pulse" src="assets/img/loft.jpg" style="box-shadow: 0px 20px 40px 1px rgba(0,0,0,0.6);border-radius: 17px;"></a>
                 <h3 class="name">Article Title</h3>
                 <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
     </div>
