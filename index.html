@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/Article-Dual-Column.css">
     <link rel="stylesheet" href="assets/css/Article-List.css">
     <link rel="stylesheet" href="assets/css/Footer-Basic.css">
@@ -29,20 +28,26 @@
 
 <body>
     <div data-bs-parallax-bg="true" style="height: 533px;filter: brightness(100%) hue-rotate(0deg) invert(0%) saturate(106%) sepia(0%);background-image: url(&quot;assets/img/MBP.jpeg&quot;);background-position: center;background-size: cover;">
-        <nav class="navbar navbar-light navbar-expand-md" style="background-color: #ffffff;filter: invert(100%);opacity: 0.97;margin-bottom: 30px;">
+        <nav class="navbar navbar-light navbar-expand-md" style="background-color: #ffffff;filter: invert(0%);opacity: 0.80;margin-bottom: 30px;">
             <div class="container-fluid"><a class="navbar-brand" href="index.html" style="font-weight: bold;">Glance</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-2"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div
                     class="collapse navbar-collapse" id="navcol-2">
                     <ul class="nav navbar-nav">
-                        <li class="nav-item" role="presentation"><a class="nav-link active" href="ZZHOU.html">MLPR</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="Canova.html" style="color: #000000;">Canova</a></li>
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color: #000000;">Youjia</a></li>
+                        <li class="nav-item" role="presentation"></li>
+                        <li class="nav-item" role="presentation"></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="ZZHOU.html">Zihan</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="Canova.html">Canova</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="Youjia.html">Youjia</a></li>
+                        <li class="nav-item" role="presentation"></li>
+                        <li class="nav-item" role="presentation"></li>
                     </ul>
             </div>
     </div>
     </nav>
-    <h1 style="padding-top: 214px;padding-right: 0px;margin-top: -1px;padding-left: 91px;color: rgb(255,255,255);font-weight: bold;">VIEWS ON</h1>
-    <h1 style="padding-top: 0px;padding-right: 0px;margin-top: -16px;padding-left: 91px;color: rgb(255,255,255);font-weight: bold;">COMPUTATIONAL TECHS.</h1>
+    <div class="col text-left" style="padding-top: 281px;">
+        <h1 style="color: rgb(255,255,255);font-weight: bold;">VIEWS ON</h1>
+        <h1 style="color: rgb(255,255,255);font-weight: bold;">COMPUTATIONAL TECHS.</h1>
+    </div>
     </div>
     <div class="highlight-blue" style="background-color: rgb(255,255,255);height: 134px;margin-top: -34px;">
         <div class="container">
@@ -56,18 +61,18 @@
     <div class="article-list">
         <div class="container">
             <div class="row articles">
-                <div class="col-sm-6 col-md-4 item"><a href="ZZHOU.html"><img class="img-fluid" data-bs-hover-animate="pulse" src="assets/img/Classroom.jpg" style="background-image: url(&quot;assets/img/Classroom.jpg&quot;);box-shadow: 0px 20px 40px 1px rgba(0,30,100,0.6);border-radius: 17px;"></a>
+                <div class="col-sm-6 col-md-4 item"><a href="ZZHOU.html"><img class="img-fluid" data-bs-hover-animate="pulse" src="assets/img/Classroom.jpg" style="background-image: url(&quot;assets/img/Classroom.jpg&quot;);/*hover{box-shadow: 0px 20px 40px 1px rgba(0,30,100,0.6);*/border-radius: 17px;"></a>
                     <h3
                         class="name">ML/PR in Education</h3>
-                        <p class="description">The article mainly describes the possible applications of machine learning and pattern recognition in educational establishments while giving counter examples.</p><a class="action" href="ZZHOU.html"><i class="fa fa-arrow-circle-right"></i></a></div>
+                        <p class="description">The article mainly describes the possible applications of machine learning and pattern recognition in educational establishments while giving counter examples.</p><a class="action" href="ZZHOU.html"><i class="fa fa-arrow-circle-right" href="ZZHOU.html"></i></a></div>
                 <div
-                    class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" data-bs-hover-animate="pulse" src="assets/img/building.jpg" style="box-shadow: 0px 20px 40px 1px rgba(0,0,0,0.6);border-radius: 17px;"></a>
+                    class="col-sm-6 col-md-4 item"><a href="Canova.html"><img class="img-fluid" data-bs-hover-animate="pulse" src="assets/img/building.jpg" style="/*box-shadow: 0px 20px 40px 1px rgba(0,0,0,0.6);*/border-radius: 17px;"></a>
                     <h3 class="name">Article Title</h3>
-                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="Canova.html"><i class="fa fa-arrow-circle-right" href="Canova.html"></i></a></div>
             <div
-                class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" data-bs-hover-animate="pulse" src="assets/img/loft.jpg" style="box-shadow: 0px 20px 40px 1px rgba(0,0,0,0.6);border-radius: 17px;"></a>
-                <h3 class="name">Article Title</h3>
-                <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
+                class="col-sm-6 col-md-4 item"><a href="Youjia.html"><img class="img-fluid" data-bs-hover-animate="pulse" src="assets/img/Medical.png" style="/*box-shadow: 0px 20px 40px 1px rgba(0,0,0,0.6);*/border-radius: 17px;" href="Youjia.html"></a>
+                <h3 class="name">Computing in medical area<br></h3>
+                <p class="description">The article discussed on the applications of computers in medical fields, and how it enhances our hospital system and the patient-doctor communication.</p><a class="action" href="Youjia.html"><i class="fa fa-arrow-circle-right" href="Youjia.html"></i></a></div>
     </div>
     </div>
     </div>
@@ -75,7 +80,6 @@
     <div></div>
     <div class="footer-basic" style="background-color: rgb(0,0,0);filter: hue-rotate(0deg) invert(100%);">
         <footer>
-            <div class="social"></div>
             <ul class="list-inline">
                 <li class="list-inline-item"><a href="index.html">Home</a></li>
                 <li class="list-inline-item"></li>
