@@ -16,4 +16,4 @@
 
 # Evidence of collaboration
 
-    Acceptable - there is a noticeable skew between how many commits were made between one person and the other
+    Weak - there is a noticeable skew between how many commits were made between one person and the other
